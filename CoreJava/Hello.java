@@ -1,6 +1,14 @@
 
 class Hello{
      public static void main(String[] args) {
-        System.out.println("hii");
+
+      String groupName="wmapartyOnly";
+			if (groupName.equalsIgnoreCase("WMAPARTYONLY")) {
+				System.out.println("true"); // User is a member of the group
+			}
+         else{
+            System.out.println("false");
+         }
+
      }
 }
